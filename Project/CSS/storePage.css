@@ -1,0 +1,131 @@
+/* General Page Styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#website_name {
+    font-family: 'Tourney', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Top Navigation */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    font-size: larger;
+    margin: 0 15px;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #565e64;
+}
+
+/* Year Dropdown */
+.portfolio-nav {
+    margin-bottom: 30px;
+}
+
+.portfolio-nav select {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Portfolio Grid */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns in the grid */
+    gap: 20px; /* Space between items */
+}
+
+.portfolio-item {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Commission Button */
+.commission-button {
+    margin-top: 30px;
+}
+
+.commission-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.commission-button button:hover {
+    background-color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr; 
+    }
+}
+
+
+
+
+

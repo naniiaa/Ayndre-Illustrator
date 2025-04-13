@@ -1,0 +1,241 @@
+* 
+{
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-size: 14px;
+}
+
+ul 
+{
+    list-style-type: none; /* Removes bullets */
+    /*padding: 0;           /*  Removes default padding */
+    /*margin: 0;             /* Removes default margin */
+}
+
+.v16_168 
+{
+  width: 100%;
+  height: 1158px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v2_246 
+{
+  width: 100%;
+  height: 1021px;
+  background: url("../images/v2_246.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 137px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v42_339 
+{
+  width: 100%;
+  height: 100%;
+  background: url("../images/v42_339.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v42_352 
+{
+  width: 158px;
+  height: 38px;
+  background: url("../images/v42_352.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 924px;
+  left: 1915px;
+  overflow: hidden;
+}
+
+.v42_353 
+{
+  width: 114px;
+  height: 38px;
+  background: rgba(17,17,17,1);
+  padding: 12px 20px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v2_274 
+{
+  width: 74px;
+  height: 14px;
+  background: url("../images/v2_274.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 16px;
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  overflow: hidden;
+}
+
+.name 
+{
+  color: #fff;
+}
+
+.v2_252 
+{
+  width: 100%;
+  height: 137px;
+  background: url("../images/v2_252.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v2_253 
+{
+  width: 100%;
+  height: 137px;
+  background: url("../images/v2_253.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v2_255 
+{
+  width: 458px;
+  color: rgba(17,17,17,1);
+  position: absolute;
+  top: 51px;
+  left: 122px;
+  font-family: Anton;
+  font-weight: Regular;
+  font-size: 33px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v190_1827 
+{
+  width: 394px;
+  height: 24px;
+  background: url("../images/v190_1827.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 23px;
+  opacity: 1;
+  position: absolute;
+  top: 57px;
+  left: 1021px;
+  overflow: hidden;
+}
+
+.v190_1828 {
+  width: 70px;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: Abel;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.v190_1829 {
+  width: 82px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 93px;
+  font-family: Abel;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.v190_1830 {
+  width: 50px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 198px;
+  font-family: Abel;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.v190_1831 {
+  width: 50px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 271px;
+  font-family: Abel;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.v190_1832 {
+  width: 50px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 344px;
+  font-family: Abel;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.v250_1363 {
+  width: 118px;
+  height: 50px;
+  background: url("../images/v250_1363.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 1715px;
+  overflow: hidden;
+}

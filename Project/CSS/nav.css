@@ -1,0 +1,131 @@
+/* Container for the navbar, centered and set to 100% width */
+.navbar {
+    width: 100%;
+    max-width: 1920px; /* Adjust max width to fit standard displays */
+    height: 137px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Logo link styling */
+.navbar-title {
+    flex: 1; /* Allows the title to take available space */
+}
+
+.logo-link {
+    color: #111111;
+    font-size: 33px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    text-decoration: none;
+}
+
+/* Navigation links container styling */
+.navbar-links {
+    display: flex;
+    gap: 20px;
+    flex: 2; /* Allows links to take up available space */
+    justify-content: center;
+}
+
+.nav-link {
+    color: black;
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 22.5px;
+}
+
+/* Login and Sign-up buttons container styling */
+.navbar-actions {
+    display: flex;
+    gap: 10px;
+    margin-left: auto; /* Pushes the actions to the right */
+}
+
+.navbar-button {
+    background-color: #272727;
+    border-radius: 2px;
+    padding: 12px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-link {
+    color: white;
+    font-size: 11.42px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.16px;
+    text-decoration: none;
+    line-height: 20.81px;
+    text-align: center;
+}
+
+/* Cart icon styling */
+.cart-icon {
+    margin-left: 20px;
+}
+
+.cart-icon img {
+    width: 60px;
+    height: 50px;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .hero {
+    background: url("Project//images/v97_1608.png") no-repeat center center/cover;
+    padding: 60px 20px;
+    color: rgba(253, 253, 245, 1);
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+  }
+  
+  .about-me, .creative-process, .inspiration, .art-philosophy, .social-media {
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    color: rgba(94, 94, 94, 1);
+  }
+  
+  p {
+    color: rgba(148, 148, 148, 1);
+    font-size: 20px;
+  }
